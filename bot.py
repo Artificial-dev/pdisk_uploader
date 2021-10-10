@@ -150,7 +150,7 @@ async def addFooter(str):
 <b> Note : Your Video File is Available on Above LINK ones Upload Process is Complete, it Take Time Depend on Your File Size & My Server Upload Speed
 So,be Patient </b>  😴😴😴😴     
 ━━━━━━━━━━━━━━━
-⦿ Made With♥️BY @ArtificialThinkerr
+⦿ Made With 🖤 BY @ArtificialThinkerr
 ━━━━━━━━━━━━━━━
 ✪ »JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
