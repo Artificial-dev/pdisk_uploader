@@ -27,7 +27,7 @@ bot = Client('pdisk bot',
 async def start(bot, message):
     await message.reply(
         f"**Hey 😌{message.chat.first_name}!**\n\n"
-        "**A Simple PDisk Uploader Bot.\n\n➠ Send Me Any Direct Link, YouTube Link Or Pdisk Link  I Will Upload To PDisk And Give Direct Link\n\nMade With❤BY @ArtificialThinkerr**")
+        "**A Simple PDisk Uploader Bot.\n\n➠ Send Me Any Direct Link, YouTube Link Or Pdisk Link  I Will Upload To PDisk And Give Direct Link\n\nMade With 🖤 BY @ArtificialThinkerr**")
 
     
 @bot.on_message(filters.text & filters.private)
@@ -78,13 +78,13 @@ async def get_ptitle(url):
     v_len = len(v_id)
     v_id = v_id[1:v_len - 2]
 
-    v_url = 'https://www.pdisks.me/share-video?videoid=' + v_id
+    v_url = 'https://www.pdisks.com/share-video?videoid=' + v_id
     res = [str, v_url]
     return res
 
 
 async def pdisk_up(link):
-    if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or link in 'vdshort' or link in 'vidrivers'):
+    if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'pdisklink' in link or link in 'vdshort' or link in 'vidrivers'):
         res = await get_ptitle(link)
         title_pdisk = res[0]
         link = res[1]
@@ -98,7 +98,7 @@ async def pdisk_up(link):
     data = dict(data)
     print(data)
     v_id = data['data']['item_id']
-    v_url = 'https://www.pdisks.me/share-video?videoid=' + v_id
+    v_url = 'https://www.pdisks.com/share-video?videoid=' + v_id
     return (v_url)
 
 
