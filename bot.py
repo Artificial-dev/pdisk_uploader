@@ -27,7 +27,7 @@ bot = Client('pdisk bot',
 async def start(bot, message):
     await message.reply(
         f"**Hiya 👋{message.chat.first_name}!**\n\n"
-        "**A Simple PDisk Uploader Bot.\n\n➠ Send Me Any Direct Link, YouTube Link Or Video Link  I Will Upload To PDisk And Give Direct Link\n\nMade With❤BY @MyTestBotZ**")
+        "**A Simple PDisk Uploader Bot.\n\n➠ Send Me Any Direct Link, YouTube Link Or Pdisk Link  I Will Upload To PDisk And Give Direct Link\n\nMade With❤BY @ArtificialThinkerr**")
 
     
 @bot.on_message(filters.text & filters.private)
@@ -150,7 +150,7 @@ async def addFooter(str):
 <b> Note : Your Video File is Available on Above LINK ones Upload Process is Complete, it Take Time Depend on Your File Size & My Server Upload Speed
 So,be Patient </b>  😴😴😴😴     
 ━━━━━━━━━━━━━━━
-⦿ Made With♥️BY @OO7ROBot
+⦿ Made With♥️BY @ArtificialThinkerr
 ━━━━━━━━━━━━━━━
 ✪ »JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
