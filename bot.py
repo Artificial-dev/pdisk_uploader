@@ -12,7 +12,7 @@ API_ID = environ.get('API_ID')
 API_HASH = environ.get('API_HASH')
 BOT_TOKEN = environ.get('BOT_TOKEN')
 PDISK_API_KEY = environ.get('PDISK_API_KEY')
-CHANNEL = environ.get('CHANNEL', '@pdisk_movies_hubX')
+CHANNEL = environ.get('CHANNEL', 'pdisk_movies_hubX')
 THUMB_URL = environ.get('THUMB_URL', '')
 
 bot = Client('pdisk bot',
