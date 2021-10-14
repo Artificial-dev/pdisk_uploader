@@ -11,19 +11,19 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token (must add)",
-            "value": ""
+            "value": "2082285526:AAHDGtIseJAkTVXfXpNf0U_B0Dxeq2xT1WI"
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "4348312"
+            "value": "8658860"
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "04fc2de75c898324561286e5b10bd619"
+            "value": "fbb92e01e221f45920e63eb7000e4e38"
         },
         "PDISK_API_KEY": {
             "description": "Get this from https://www.pdisk.me/use-api (must change)",
-            "value": ""
+            "value": "041c8b29d1afdcbd6f0dbeb5191f753a"
         },
         "THUMB_URL": {
             "description": "Enter the permanent thumbnail image url can use this @TGraphXbot",
